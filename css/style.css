@@ -3,7 +3,7 @@
 font-family: 'Brandon Grotesque Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Regular'), url('fonts/Brandon_reg.woff') format('woff');
+src: local('Brandon Grotesque Regular'), url('/fonts/Brandon_reg.woff') format('woff');
 }
 
 
@@ -11,7 +11,7 @@ src: local('Brandon Grotesque Regular'), url('fonts/Brandon_reg.woff') format('w
 font-family: 'Brandon Grotesque Regular Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Regular Italic'), url('fonts/Brandon_reg_it.woff') format('woff');
+src: local('Brandon Grotesque Regular Italic'), url('/fonts/Brandon_reg_it.woff') format('woff');
 }
 
 
@@ -19,7 +19,7 @@ src: local('Brandon Grotesque Regular Italic'), url('fonts/Brandon_reg_it.woff')
 font-family: 'Brandon Grotesque Thin';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Thin'), url('fonts/Brandon_thin.woff') format('woff');
+src: local('Brandon Grotesque Thin'), url('/fonts/Brandon_thin.woff') format('woff');
 }
 
 
@@ -27,7 +27,7 @@ src: local('Brandon Grotesque Thin'), url('fonts/Brandon_thin.woff') format('wof
 font-family: 'Brandon Grotesque Thin Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Thin Italic'), url('fonts/Brandon_thin_it.woff') format('woff');
+src: local('Brandon Grotesque Thin Italic'), url('/fonts/Brandon_thin_it.woff') format('woff');
 }
 
 
@@ -35,7 +35,7 @@ src: local('Brandon Grotesque Thin Italic'), url('fonts/Brandon_thin_it.woff') f
 font-family: 'Brandon Grotesque Light';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Light'), url('fonts//Brandon_light.woff') format('woff');
+src: local('Brandon Grotesque Light'), url('/fonts//Brandon_light.woff') format('woff');
 }
 
 
@@ -43,7 +43,7 @@ src: local('Brandon Grotesque Light'), url('fonts//Brandon_light.woff') format('
 font-family: 'Brandon Grotesque Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Light Italic'), url('fonts/Brandon_light_it.woff') format('woff');
+src: local('Brandon Grotesque Light Italic'), url('/fonts/Brandon_light_it.woff') format('woff');
 }
 
 
@@ -51,7 +51,7 @@ src: local('Brandon Grotesque Light Italic'), url('fonts/Brandon_light_it.woff')
 font-family: 'Brandon Grotesque Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Medium'), url('fonts/Brandon_med.woff') format('woff');
+src: local('Brandon Grotesque Medium'), url('/fonts/Brandon_med.woff') format('woff');
 }
 
 
@@ -59,7 +59,7 @@ src: local('Brandon Grotesque Medium'), url('fonts/Brandon_med.woff') format('wo
 font-family: 'Brandon Grotesque Medium Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Medium Italic'), url('fonts/Brandon_med_it.woff') format('woff');
+src: local('Brandon Grotesque Medium Italic'), url('/fonts/Brandon_med_it.woff') format('woff');
 }
 
 
@@ -67,7 +67,7 @@ src: local('Brandon Grotesque Medium Italic'), url('fonts/Brandon_med_it.woff') 
 font-family: 'Brandon Grotesque Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Bold'), url('fonts/Brandon_bld.woff') format('woff');
+src: local('Brandon Grotesque Bold'), url('/fonts/Brandon_bld.woff') format('woff');
 }
 
 
@@ -75,7 +75,7 @@ src: local('Brandon Grotesque Bold'), url('fonts/Brandon_bld.woff') format('woff
 font-family: 'Brandon Grotesque Bold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Bold Italic'), url('fonts/Brandon_bld_it.woff') format('woff');
+src: local('Brandon Grotesque Bold Italic'), url('/fonts/Brandon_bld_it.woff') format('woff');
 }
 
 
@@ -83,7 +83,7 @@ src: local('Brandon Grotesque Bold Italic'), url('fonts/Brandon_bld_it.woff') fo
 font-family: 'Brandon Grotesque Black';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Black'), url('fonts/Brandon_blk.woff') format('woff');
+src: local('Brandon Grotesque Black'), url('/fonts/Brandon_blk.woff') format('woff');
 }
 
 
@@ -91,7 +91,7 @@ src: local('Brandon Grotesque Black'), url('fonts/Brandon_blk.woff') format('wof
 font-family: 'Brandon Grotesque Black Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Brandon Grotesque Black Italic'), url('fonts/Brandon_blk_it.woff') format('woff');
+src: local('Brandon Grotesque Black Italic'), url('/fonts/Brandon_blk_it.woff') format('woff');
 }
 body{
   scroll-behavior: smooth;
@@ -113,21 +113,13 @@ body{
   OLD DESIGN ENDS */
   font-family: "Brandon Grotesque Regular";
   color: black;
-  padding: 25px 50px 25px 50px;
   text-align: left;
   position: fixed;
   top: 0;
   width: 100%;
   margin: 0px 0px 0px 0px;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
-  border-bottom-color: #0b85ff;
-  background-color: white;
-  animation-name: header-border-grad;
-  animation-iteration-count: infinite;
-  animation-duration: 3s;
   /* COPIED FROM W3SCHOOLS.COM */
-  //box-shadow: 2px 2px rgba(0, 0, 0, .5);
+  /*box-shadow: 2px 2px rgba(0, 0, 0, .5); */
   /* COPIED PART ENDS */
 }
 .header h1{
@@ -159,7 +151,7 @@ body{
   /*text-decoration: underline;
   animation-name: under;
   animation-iteration-count: infinite;
-  animation-duration: 1s;*/
+  animation-duration: 1s; */
 }
 
 .header a:visited{
@@ -212,6 +204,155 @@ body{
   border-bottom-width: 2px;
   border-bottom-color: #0b85ff;
 }
+
+/**PRIMARY NAVIGATION***/
+
+.primary-nav{
+  padding: 25px 50px 25px 50px;
+  margin: 0px 0px 0px 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #0b85ff;
+  background-color: white;
+  animation-name: header-border-grad;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.primary-nav h1{
+  font-family: "Brandon Grotesque Regular";
+  font-size: 20pt;
+}
+.primary-nav h2{
+  font-family: "Brandon Grotesque Regular";
+  font-size: 16pt;
+}
+.primary-nav h3{
+  font-family: "Brandon Grotesque Regular";
+  font-size:20pt;
+}
+.primary-nav a{
+  /* color:white; */
+  color: black;
+  font-size: 16pt;
+  font-variant-caps: all-petite-caps;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+}
+.primary-nav a:link{
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  /* color:white; */
+  color: black;
+  /*text-decoration: underline;
+  animation-name: under;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;*/
+}
+
+.primary-nav a:visited{
+  font-family: "Roboto Mono";
+  font-weight: bold;
+    /* color:white; */
+  color: black;
+  text-decoration: none;
+}
+.primary-nav a:hover{
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  animation-name: under;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  /*animation-iteration-count: 0;
+  animation-play-state: paused;
+  text-decoration-color: white;*/
+  
+}
+.primary-nav a:active{
+  color: #0b85ff;
+}
+.primary-nav svg{
+  width: 70px;
+  align-content: left;
+}
+.primary-nav svg:hover{
+  fill: #0b85ff;
+  animation-name: grad4;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.primary-nav svg:active{
+  opacity: 70%;
+}
+.primary-nav img:hover {
+  text-decoration: underline;
+  animation-name: img-hover;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.primary-nav img{
+  width: 70px;
+  align-content: left;
+}
+.primary-nav img:active{
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0b85ff;
+}
+
+/***SECONDARY NAVIGATION***/
+.secondary-nav{
+  font-family: "Inter";
+  background-color: #0b85ff;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border-bottom-color: lightblue;
+  border-bottom-width: 2.5px;
+  border-bottom-style: solid;
+}
+.secondary-nav a{
+  color:white;
+}
+.secondary-nav a:link{
+  font-family: "Inter";
+  font-weight: 400;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+
+}
+.secondary-nav a:visited{
+  font-family: "Inter";
+  font-weight: 400;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+.secondary-nav a:hover{
+  opacity: 70%;
+  text-decoration: underline;
+  text-decoration-color: white;
+  animation-name: snav-under;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.secondary-nav svg{
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+.secondary-nav svg:hover{
+  opacity: 70%;
+}
+.secondary-nav-complex-link{
+  display: inline-block;
+  vertical-align: middle;
+}
+.snav-backlink {
+  float: left;
+}
+
 /***FOOTER***/
 footer {
   font-family: "Brandon Grotesque Regular";
@@ -392,6 +533,9 @@ footer a:hover{
   animation-name: under2;
   animation-iteration-count: infinite;
   animation-duration: 1s;
+}
+.content-with-secondary-nav{
+  padding-block-start: 50px;
 }
 /***END OF CONTENT***/
 
@@ -779,4 +923,7 @@ code{
 }
 @keyframes under3{
   50%{text-decoration-color: #0b85ff;}
+}
+@keyframes snav-under{
+  50%{text-decoration-color: none;}
 }
