@@ -114,17 +114,14 @@ body {
   /*padding: 200px 50px 50px 50px;*/
 }
 h1{
-  vertical-align: middle;
   font-family: "Brandon Grotesque Regular";
   font-size: 30pt;
 }
 h2{
-  vertical-align: middle;
   font-family: "Brandon Grotesque Regular";
   font-size: 20pt;
 }
 h3{
-  vertical-align: middle;
   font-family: "Brandon Grotesque Regular";
   font-size:14pt;
 }
@@ -132,12 +129,10 @@ p{
   font-family: "Inter";
 }
 a{
-  vertical-align: middle;
   color:white;
   font-size: 14pt;
 }
 a:link{
-  vertical-align: middle;
   font-family: "Roboto Mono";
   color:white;
   text-decoration: underline;

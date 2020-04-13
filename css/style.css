@@ -196,6 +196,7 @@ body{
 }
 
 .header img{
+	display: inline;
   width: 70px;
   align-content: left;
 }
@@ -206,7 +207,21 @@ body{
 }
 
 /**PRIMARY NAVIGATION***/
-
+#home-button{
+  display: inline;
+}
+#primary-nav-links{
+  display: inline;
+}
+#menu-icon {
+  display: none;
+}
+#primary-nav-links-mobile{
+  display: none;
+}
+#desktop-nav{
+  display: none;
+}
 .primary-nav{
   padding: 25px 50px 25px 50px;
   margin: 0px 0px 0px 0px;
@@ -266,7 +281,7 @@ body{
   /*animation-iteration-count: 0;
   animation-play-state: paused;
   text-decoration-color: white;*/
-  
+  opacity: 1.0;
 }
 .primary-nav a:active{
   color: #0b85ff;
@@ -299,6 +314,20 @@ body{
   border-bottom: solid;
   border-bottom-width: 2px;
   border-bottom-color: #0b85ff;
+}
+
+#menu-icon{
+	float: right;
+}
+#menu-icon img:hover{
+  animation: none;
+}
+#menu-icon img:active{
+  animation: none;
+}
+#menu-icon img{
+  width: 20px;
+  height: 20px;
 }
 
 /***SECONDARY NAVIGATION***/
@@ -352,6 +381,7 @@ body{
 .snav-backlink {
   float: left;
 }
+
 
 /***FOOTER***/
 footer {

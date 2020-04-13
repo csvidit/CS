@@ -3,24 +3,42 @@
   <head>
     <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
-  <script src="/scripts.js"></script>
+  <script src="/js/scripts.js"></script>
 	<!copied from template starts here***>
 	<meta name="viewport" content="width=device-width, initial width=1">
 	<!copied from template ends here***>
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto+Mono|Inter&display=swap" rel="stylesheet">
 	<link rel='icon' href='https://drive.google.com/uc?id=1sHRLSbQbNugQIJCw1VZLHF0GuGWl9k29&authuser=2' type='image/x-icon' />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="scripts.js"></script>
 	<title>Vidit Khandelwal | CS</title>
   </head>
-  <body>
+  <body onload="menu()">
     <div class="header">
       <div class="primary-nav">
+
+        <div id="home-button">
     <a href="home.html"><img src="VKCS Header Logo Black.png" alt="Vidit Khandelwal | CS Logo" link="home.html"></a> &emsp;
+        </div>
+
+				<div id="menu-icon" onclick="HamburgerMenu()">
+          <img src="/assets/HamburgerMenu-VKCS-2.svg" alt="Hamburger Menu Icon">
+        </div>				
+        
+        <div id="primary-nav-links">
     <a href="html-projects.html">HTML Projects</a> &emsp;
     <a href="app-dev.html">Applications</a> &emsp;
     <a href="about.html">About</a> &emsp;
     <a href="oop.html">OOP</a> &emsp;
+        </div>
+        
+        <div id="primary-nav-links-mobile">
+    <a href="html-projects.html">HTML Projects</a> <br>
+    <a href="app-dev.html">Applications</a> <br>
+    <a href="about.html">About</a> <br>
+    <a href="oop.html">OOP</a> <br>
+        </div>
+
+        </div>
       </div>
   </div>
   <div class="content">

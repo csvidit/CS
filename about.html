@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="/js/scripts.js"></script>
 	<!copied from template starts here***>
 	<meta name="viewport" content="width=device-width, initial width=1">
 	<!copied from template ends here***>
@@ -12,15 +13,34 @@
 	<title>About - VK|CS</title>
 </head>
 
-<body>
+<body onload="menu()">
 	<div class="header">
-    <div class="primary-nav">
-		<a href="home.html"><img src="VKCS Header Logo Black.png" alt="Vidit Khandelwal | CS Logo" link="home.html"></a> &emsp;
+      <div class="primary-nav">
+
+        <div id="home-button">
+    <a href="home.html"><img src="VKCS Header Logo Black.png" alt="Vidit Khandelwal | CS Logo" link="home.html"></a> &emsp;
+        </div>
+
+				<div id="menu-icon" onclick="HamburgerMenu()">
+          <img src="/assets/HamburgerMenu-VKCS-2.svg" alt="Hamburger Menu Icon">
+        </div>				
+        
+        <div id="primary-nav-links">
     <a href="html-projects.html">HTML Projects</a> &emsp;
     <a href="app-dev.html">Applications</a> &emsp;
     <a href="about.html">About</a> &emsp;
     <a href="oop.html">OOP</a> &emsp;
-    </div>
+        </div>
+        
+        <div id="primary-nav-links-mobile">
+    <a href="html-projects.html">HTML Projects</a> <br>
+    <a href="app-dev.html">Applications</a> <br>
+    <a href="about.html">About</a> <br>
+    <a href="oop.html">OOP</a> <br>
+        </div>
+
+        </div>
+      </div>
   </div>
   <div class="about">
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -100,7 +120,7 @@
     <div class="about-regular">
     <h3>Let's talk about this website</h3>
     <a href="/html-projects/vkcs.html">Read about the Vidit Khandelwal | CS HTML Project by Vidit Khandelwal</a> 
-    <h5>Current Website Version - Vidit Khandelwal | CS v0.3</h5>
+    <h5>Current Website Version - Vidit Khandelwal | CS v0.4X</h5>
     </div></div>
     <footer>
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>

@@ -1,0 +1,9 @@
+<div class="header">
+    <div class="primary-nav">
+		<a href="home.html"><img src="VKCS Header Logo Black.png" alt="Vidit Khandelwal | CS Logo" link="home.html"></a> &emsp;
+    <a href="html-projects.html">HTML Projects</a> &emsp;
+    <a href="app-dev.html">Applications</a> &emsp;
+    <a href="about.html">About</a> &emsp;
+    <a href="oop.html">OOP</a> &emsp;
+    </div>
+  </div>
