@@ -222,7 +222,8 @@ body{
 #desktop-nav{
   display: none;
 }
-.primary-nav{
+/*** CONVERTED PRIMARY NAV FROM CLASS TO ID ***/
+#primary-nav{
   padding: 25px 50px 25px 50px;
   margin: 0px 0px 0px 0px;
   border-bottom-style: solid;
@@ -233,19 +234,19 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 3s;
 }
-.primary-nav h1{
+#primary-nav h1{
   font-family: "Brandon Grotesque Regular";
   font-size: 20pt;
 }
-.primary-nav h2{
+#primary-nav h2{
   font-family: "Brandon Grotesque Regular";
   font-size: 16pt;
 }
-.primary-nav h3{
+#primary-nav h3{
   font-family: "Brandon Grotesque Regular";
   font-size:20pt;
 }
-.primary-nav a{
+#primary-nav a{
   /* color:white; */
   color: black;
   font-size: 16pt;
@@ -254,7 +255,7 @@ body{
   text-decoration: underline;
   text-decoration-color: transparent;
 }
-.primary-nav a:link{
+#primary-nav a:link{
   font-family: "Roboto Mono";
   font-weight: bold;
   /* color:white; */
@@ -265,14 +266,14 @@ body{
   animation-duration: 1s;*/
 }
 
-.primary-nav a:visited{
+#primary-nav a:visited{
   font-family: "Roboto Mono";
   font-weight: bold;
     /* color:white; */
   color: black;
   text-decoration: none;
 }
-.primary-nav a:hover{
+#primary-nav a:hover{
   text-decoration: underline;
   text-decoration-color: transparent;
   animation-name: under;
@@ -283,34 +284,34 @@ body{
   text-decoration-color: white;*/
   opacity: 1.0;
 }
-.primary-nav a:active{
+#primary-nav a:active{
   color: #0b85ff;
 }
-.primary-nav svg{
+#primary-nav svg{
   width: 70px;
   align-content: left;
 }
-.primary-nav svg:hover{
+#primary-nav svg:hover{
   fill: #0b85ff;
   animation-name: grad4;
   animation-iteration-count: infinite;
   animation-duration: 3s;
 }
-.primary-nav svg:active{
+#primary-nav svg:active{
   opacity: 70%;
 }
-.primary-nav img:hover {
+#primary-nav img:hover {
   text-decoration: underline;
   animation-name: img-hover;
   animation-iteration-count: infinite;
   animation-duration: 1s;
 }
 
-.primary-nav img{
+#primary-nav img{
   width: 70px;
   align-content: left;
 }
-.primary-nav img:active{
+#primary-nav img:active{
   border-bottom: solid;
   border-bottom-width: 2px;
   border-bottom-color: #0b85ff;
@@ -333,7 +334,7 @@ body{
 /***SECONDARY NAVIGATION***/
 .secondary-nav{
   font-family: "Inter";
-  background-color: #0b85ff;
+  background-color: #4b4a4f;
   padding: 10px 50px 10px 50px;
   text-align: center;
   border-bottom-color: lightblue;
@@ -381,7 +382,26 @@ body{
 .snav-backlink {
   float: left;
 }
-
+#secnav{
+	display: none;
+}
+/*#secnavdrop p{
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+#secnavdrop p:visited{
+	text-decoration: underline;
+	text-decoration-color: white;
+	opacity: 100%;
+}
+#secnavdrop p:hover{
+	animation-name: snav-under;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+#secnavdrop p:active{
+	opacity: 100%;
+}*/
 
 /***FOOTER***/
 footer {

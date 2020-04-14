@@ -7,3 +7,37 @@
     <a href="oop.html">OOP</a> &emsp;
     </div>
   </div>
+
+/***** NEW HTML BELOW THIS WHICH HAS BEEN TEMPORARILY REMOVED *****/
+
+<div id="home-button">
+    <a href="home.html"><img src="VKCS Header Logo Black.png" alt="Vidit Khandelwal | CS Logo" link="home.html"></a> &emsp;
+        </div>
+
+				<div id="menu-icon" onclick="HamburgerMenu()">
+          <img src="/assets/HamburgerMenu-VKCS-2.svg" alt="Hamburger Menu Icon">
+        </div>				
+        
+        <div id="primary-nav-links">
+    <a href="html-projects.html">HTML Projects</a> &emsp;
+    <a href="app-dev.html">Applications</a> &emsp;
+    <a href="about.html">About</a> &emsp;
+    <a href="oop.html">OOP</a> &emsp;
+        </div>
+        
+        <div id="primary-nav-links-mobile">
+    <a href="html-projects.html">HTML Projects</a> <br>
+    <a href="app-dev.html">Applications</a> <br>
+    <a href="about.html">About</a> <br>
+    <a href="oop.html">OOP</a> <br>
+        </div>
+
+        </div>
+    <div class="secondary-nav">
+			<div id="secnavdrop">
+			<a onlick="secnavmenu()">OOP Menu &#2304;</a>
+			</div>
+
+			<div id="secnav">
+
+      <a href="/oop/java.html"><div 
