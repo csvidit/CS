@@ -1,7 +1,11 @@
-function alertMessage(){
-   alert("This website is under construction. Please do not proceed");
-}
-function menu(){
+/*function alertMessage(){
+   alert("This website is under construction. Please do not proceed.");
+}*/
+
+
+/*OLD MENU FUNCTION*/
+
+/*function menu(){
   if(window.innerWidth < 700)
   {
     document.getElementById("menu-icon").style.display='inline';
@@ -15,8 +19,23 @@ function menu(){
 			prim_nav_elements[i].paddingRight='25px';
 			prim_nav_elements[i].paddingBottom='10px';
 			prim_nav_elements[i].paddingLeft='25px';
-		}*/
+		}
   }
+}*/
+
+function menu(){
+	if(window.innerWidth < 700)
+	{
+		/*document.getElementById("desktop-flexbox").style.display='none';
+		document.getElementById("mobile-flexbox").style.display='flex';*/
+		document.getElementById("mobile-menu").style.display='block';
+		document.getElementById("primary-nav").style.padding='10px 25px 10px 25px';
+	}
+	else
+	{
+		document.getElementById("desktop-flexbox").style.display='flex';
+		document.getElementById("mobile-flexbox").style.display='none';
+	}
 }
 function HamburgerMenu(){
   if(document.getElementById("primary-nav-links-mobile").style.display=='none')

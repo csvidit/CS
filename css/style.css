@@ -207,24 +207,10 @@ body{
 }
 
 /**PRIMARY NAVIGATION***/
-#home-button{
-  display: inline;
-}
-#primary-nav-links{
-  display: inline;
-}
-#menu-icon {
-  display: none;
-}
-#primary-nav-links-mobile{
-  display: none;
-}
-#desktop-nav{
-  display: none;
 }
 /*** CONVERTED PRIMARY NAV FROM CLASS TO ID ***/
 #primary-nav{
-  padding: 25px 50px 25px 50px;
+  padding: 15px 50px 15px 50px;
   margin: 0px 0px 0px 0px;
   border-bottom-style: solid;
   border-bottom-width: 5px;
@@ -330,7 +316,40 @@ body{
   width: 20px;
   height: 20px;
 }
-
+#navicons{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#desktop-flexbox{
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+}
+#link-to-vk.com a:hover{
+	text-decoration: none;
+	animation: none;
+}
+#mobile-flexbox{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#home-button{
+  display: inline;
+}
+#primary-nav-links{
+  display: inline;
+}
+#primary-nav-links-mobile{
+  display: none;
+}
+#desktop-nav{
+  display: none;
+}
+#mobile-header{
+	display: none;
+}
 /***SECONDARY NAVIGATION***/
 .secondary-nav{
   font-family: "Inter";
